@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Menu Item list Admin</title>
+     <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+          <div class="truyum-head">
+                <span class="truyum-title">truYum</span>
+                <img  class="logo" src="images/truyum-logo-light.png" height="50px" width="50px">
+            <nav class = "navigation">
+            <a class="menu"  href="menu-item-list-customer.html">Menu</a>
+            <a class="cart" href="cart.html">Cart</a>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class = "content-main">
+            <table align="center" class="menu-table">
+                <caption>
+                <h3>Menu Items</h3>
+                <br>
+                <h4 id="cart-delete-h4">Item removed from Cart successfully</h4>
+                </caption>
+                <thead>
+                     <tr>
+                        <th style="text-align: left">Name</th>
+                        <th style="text-align: center">Free Delivery </th>
+                        <th style="text-align: right">Price </th>
+                        <th style="text-align: center"></th>
+                    </tr>
+                </thead>
+                <tbody id="admin-table">
+                    <tr>
+                         <td>Sandwich</td>
+                         <td>Yes</td>
+                         <td>Rs. 99.00</td>
+                         <td><a href="cart.html" onclick="return deleted()">Delete</a></td>
+                    </tr>
+                    <tr>
+                         <td>Burger</td>
+                         <td>No</td>
+                         <td>Rs. 129.00</td>
+                         <td><a href="cart.html" onclick="return deleted()">Delete</a></td>
+                    </tr>
+                    <tr>
+                        <td><b>Total</b></td>
+                        <td><b>Rs. 228.00</b></td>
+                    </tr>
+              </tbody>     
+        </table>       
+        </div>
+    </section>
+    <footer>
+        <div class="copyright">Copyright &copy; 2019</div>
+    </footer>
+    
+</body>
+</html>       

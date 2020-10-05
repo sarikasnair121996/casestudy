@@ -1,0 +1,92 @@
+
+body{
+    margin: auto;
+    border: none;
+}
+.truyum-head{
+    background-color:rgb(48, 84, 150) ;
+    color: white;
+    padding top: 30px;
+    padding-bottom: 10px;
+}
+.logo{
+    padding left: 50px;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.navigation{
+    float: right;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+section{
+    padding top: 50px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.copyright{
+    padding-top: 30px;
+    background-color: rgb(141, 141, 141);
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+h3{
+    padding-top: 50px;
+}
+.truyum-title{
+    padding: 20px;
+    margin-top: 0;
+    font-size: 35px;
+}
+a.menu{
+    color: white;
+    padding-right: 20px;
+    font-size: 20px;
+}
+a.cart{
+    color: white;
+    font-size: 20px;
+}
+#submit{
+    background-color: rgb(48, 84, 150);
+    color: white;
+    padding : 10px 30px 10px 30px;
+}
+table{
+    border-spacing: 20px;
+    border: none;
+    margin: auto;
+}
+.menu-table{
+    border-spacing: 20px;
+    border: none;
+}
+td{
+    border: none;
+}
+#status-h3{
+    padding-bottom: 220px;
+    color: green;
+    margin: auto;
+}
+#status-h1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: auto;
+}
+#cart-h4{
+    color: green;
+}
+#cart-delete-h4{
+    color: green;
+}
+#cart-empty{
+    color: gray;
+}
+.content{
+    padding-bottom: 130px;
+    padding-top: 130px;
+    margin-left: 50px;
+}
+
